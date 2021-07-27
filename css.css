@@ -1,0 +1,78 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: white;
+  font-family: monospace;
+}
+body .all {
+  width: 100%;
+  max-width: 650px;
+  min-height: 1000px;
+  font-size: 16px;
+  margin: 0% auto;
+  background-color: aquamarine;
+}
+body .all .navheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 20px 20px;
+  border-bottom: 1px solid white;
+  background-color: rgb(44, 44, 44);
+}
+body .all .navheader .navheadertxt {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 1.5em;
+  align-items: center;
+  /* background-color: white; */
+}
+body .all .navheader .navheadertxt i {
+  margin-left: 0.3em;
+  align-self: flex-end;
+}
+body .all .navheader .navheadericon {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 1.9em;
+  align-items: center;
+}
+body .all .navheader .navheadericon #plas {
+  margin-right: 01em;
+}
+body .txtPerformans {
+  background-color: rgb(44, 44, 44);
+  padding: 10px 10px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+body .txtPerformans span {
+  color: rgb(96, 96, 255);
+}
+body .imformation {
+  background-color: rgb(44, 44, 44);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .imformation .imformationicon {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px;
+}
+body .imformation .imformationicon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+body .imformation div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px;
+  align-items: center;
+}
