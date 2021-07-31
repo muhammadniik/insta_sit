@@ -14,7 +14,7 @@ body .all {
   min-height: 1000px;
   font-size: 16px;
   margin: 0% auto;
-  background-color: aquamarine;
+  background-color: rgb(44, 44, 44);
 }
 body .all .navheader {
   display: flex;
@@ -23,7 +23,7 @@ body .all .navheader {
   justify-content: space-between;
   padding: 10px 20px 20px 20px;
   border-bottom: 1px solid white;
-  background-color: rgb(44, 44, 44);
+  /* background-color: rgb(44, 44, 44); */
 }
 body .all .navheader .navheadertxt {
   display: flex;
@@ -48,7 +48,7 @@ body .all .navheader .navheadericon #plas {
   margin-right: 01em;
 }
 body .txtPerformans {
-  background-color: rgb(44, 44, 44);
+  /* background-color: rgb(44, 44, 44); */
   padding: 10px 10px;
   text-align: center;
   border-bottom: 1px solid white;
@@ -57,7 +57,7 @@ body .txtPerformans span {
   color: rgb(96, 96, 255);
 }
 body .imformation {
-  background-color: rgb(44, 44, 44);
+  /* background-color: rgb(44, 44, 44); */
 
   display: flex;
   justify-content: space-around;
@@ -80,12 +80,12 @@ body .imformation div {
   align-items: center;
 }
 body .caption {
-  background-color: rgb(44, 44, 44);
+  /* background-color: rgb(44, 44, 44); */
   font-size: 1.2em;
   padding: 0.3em;
 }
 body .editprobtn {
-  background-color: rgb(44, 44, 44);
+  /* background-color: rgb(44, 44, 44); */
   padding: 10px 0.3em 0px 0.3em;
   display: flex;
   justify-content: center;
@@ -101,7 +101,7 @@ body .editprobtn a {
   padding: 0.3em;
 }
 body .btnsEmail {
-  background-color: rgb(44, 44, 44);
+  /* background-color: rgb(44, 44, 44); */
   display: flex;
   justify-content: center;
   padding: 0px 00.3em;
@@ -115,7 +115,7 @@ body .btnsEmail a {
   margin: 0.5em 0.3em;
 }
 body .storis {
-  background-color: rgb(44, 44, 44);
+  /* background-color: rgb(44, 44, 44); */
   display: flex;
   align-items: center;
 }
@@ -148,4 +148,84 @@ body .storis > div a i {
   font-family: fantasy;
   text-align: center;
   font-style: unset;
+}
+body .iconsPost {
+  /* background-color: rgb(44, 44, 44); */
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8em 0em 0em 0em;
+}
+body .iconsPost a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(96, 96, 255); */
+  /* margin: 0px 0.2em; */
+}
+a.active,
+body .iconsPost a:hover {
+  border-bottom: 0.1em solid white;
+  /*  */
+}
+body .iconsPost a img {
+  width: 2em;
+  padding: 0.5em 0;
+  color: black;
+}
+body .posts {
+  /* background-color: rgb(44, 44, 44); */
+  display: grid;
+  /* grid-template-columns: repeat(3, minmax(13.2em, 1fr)); */
+  /* grid-auto-flow: dense; */
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.3em;
+  margin: 00.3em;
+}
+
+body .posts img {
+  /* max-height: 13.2em; */
+  width: 100%;
+  height: 100%;
+  /* background-color: violet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-right: 1em; */
+}
+body .footer {
+  position: fixed;
+  bottom: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1em 0.9em;
+  width: 100%;
+  max-width: 650px;
+
+  /* width: 650px; */
+
+  background-color: rgb(44, 44, 44);
+}
+body .footer a {
+  /* background-color: rgb(96, 96, 255); */
+  /* display: inline-block; */
+  width: 3em;
+  height: 3em;
+}
+body .footer a:hover img {
+  background-color: white;
+  mix-blend-mode: overlay;
+}
+body .footer a img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* ......................................... */
+@media screen and (max-width: 370px) {
+  body .all {
+    font-size: 10px;
+  }
 }
